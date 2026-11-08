@@ -1,5 +1,11 @@
 # @tanstack/start-plugin-core
 
+## 1.171.57
+
+### Patch Changes
+
+- [#8889](https://github.com/TanStack/router/pull/8889) [`3f22686`](https://github.com/TanStack/router/commit/3f226869e0af211ff7f1de5d7343e43462dbb101) - fix: Rsbuild dev SSR now includes stylesheet links when the server environment runs outside the build process, such as in workerd with `rsbuild-plugin-cloudflare`. The dev manifest is written into the server's manifest module instead of being stored on the build process's `globalThis`.
+
 ## 1.171.56
 
 ### Patch Changes
